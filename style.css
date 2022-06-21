@@ -25,17 +25,20 @@ body {
 }
 
 .card {
-    /* height: 440px; */
-    padding: 50px 60px;
+    padding: 50px 55px 60px 50px;
 }
 
 .one {
     background-color: var(--orange);
+    border-radius: 20px 20px 0 0;
 }
 
 .one button {
     color: var(--orange);
-    
+}
+
+.one button:hover {
+    background-color: var(--orange);
 }
 
 .two {
@@ -46,12 +49,21 @@ body {
     color: var(--cyan);
 }
 
+.two button:hover {
+    background-color: var(--cyan);
+}
+
 .three {
     background-color: var(--dk-cyan);
+    border-radius: 0 0 20px 20px;
 }
 
 .three button {
     color: var(--dk-cyan);
+}
+
+.three button:hover {
+    background-color: var(--dk-cyan);
 }
 
 img {
@@ -83,6 +95,13 @@ button {
     border: none;
     padding: 15px 35px;
     border-radius: 25px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: var(--white);
+    padding: 13px 35px;
+    border: 2px solid var(--white);
 }
 
  .attribution { 
