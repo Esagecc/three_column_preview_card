@@ -1,7 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
+:root {
+    --orange: hsl(31, 77%, 52%);
+    --cyan: hsl(184, 100%, 22%);
+    --dk-cyan: hsl(179, 100%, 13%);
+    --white: hsla(0, 0%, 100%, 0.75);
+    --gray: hsl(0, 0%, 95%);
+
+}
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing:content-box;
+}
+
+body {
+    background-color: var(--gray);
+}
+
+.cars {
+    margin: 90px 20px;
+    width: 345px;
+}
+
+.card {
+    /* height: 440px; */
+    padding: 50px 60px;
+}
+
+.one {
+    background-color: var(--orange);
+}
+
+.one button {
+    color: var(--orange);
+    
+}
+
+.two {
+    background-color: var(--cyan);
+}
+
+.two button {
+    color: var(--cyan);
+}
+
+.three {
+    background-color: var(--dk-cyan);
+}
+
+.three button {
+    color: var(--dk-cyan);
+}
+
+img {
+    height: 45px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: var(--gray);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+
+button {
+    background-color: var(--gray);
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 25px;
+}
 
  .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
+    padding-bottom: 10px;
 }
 
  .attribution a { 
